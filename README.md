@@ -1,2 +1,3 @@
-# MecanismosAtencion
-Curso sobre mecanismos de atención en redes neuronales.
+# Introducción a los Mecanismos de Atención en Transformadores
+
+
