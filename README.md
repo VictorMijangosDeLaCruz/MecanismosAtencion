@@ -15,4 +15,5 @@ En segundo lugar, se abarcará los principios técnicos para la implementación 
 1. <b>Introducción</b>
     1. [Motivación de la atención]
     2. [Atención en redes recurrentes](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/01RNNAtenttion.html)
-2. ...
+2. <b>Atención en Transformadores</b>
+    1. [Auto-atención](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/02SelfAttention.html)
