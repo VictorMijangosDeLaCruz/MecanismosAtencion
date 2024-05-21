@@ -17,4 +17,5 @@ En segundo lugar, se abarcará los principios técnicos para la implementación 
     2. [Atención en redes recurrentes](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/01RNNAtenttion.html)
 2. <b>Atención en Transformadores</b>
     1. [Auto-atención](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/02SelfAttention.html)
-    2. [Embeddings y codificación posicional](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/04Encoding.html)
+    2. [Auto-atención y estructuras gráficas](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/03GraphAttention.html)
+    3. [Embeddings y codificación posicional](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/04Encoding.html)
