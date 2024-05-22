@@ -19,3 +19,4 @@ En segundo lugar, se abarcará los principios técnicos para la implementación 
     1. [Auto-atención](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/02SelfAttention.html)
     2. [Auto-atención y estructuras gráficas](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/03GraphAttention.html)
     3. [Embeddings y codificación posicional](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/04Encoding.html)
+    4. [Suma y normalización](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/05Normalization.html)
