@@ -21,3 +21,4 @@ En segundo lugar, se abarcará los principios técnicos para la implementación 
     3. [Embeddings y codificación posicional](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/04Encoding.html)
     4. [Suma y normalización](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/05Normalization.html)
     5. [Cabezas de atención](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/06AttentionHead.html)
+    6. [Auto-atención enmascarada](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/07MaskedAttention.html)
