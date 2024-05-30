@@ -22,3 +22,4 @@ En segundo lugar, se abarcará los principios técnicos para la implementación 
     4. [Suma y normalización](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/05Normalization.html)
     5. [Cabezas de atención](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/06AttentionHead.html)
     6. [Auto-atención enmascarada](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/07MaskedAttention.html)
+    7. [Optimizador Noam](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/08Noam.html)
