@@ -15,11 +15,14 @@ En segundo lugar, se abarcará los principios técnicos para la implementación 
 1. <b>Introducción</b>
     1. [Motivación de la atención]
     2. [Atención en redes recurrentes](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/01RNNAtenttion.html)
-2. <b>Atención en Transformadores</b>
+2. <b>Auto-atención en Transformadores</b>
     1. [Auto-atención](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/02SelfAttention.html)
     2. [Auto-atención y estructuras gráficas](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/03GraphAttention.html)
-    3. [Embeddings y codificación posicional](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/04Encoding.html)
-    4. [Suma y normalización](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/05Normalization.html)
-    5. [Cabezas de atención](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/06AttentionHead.html)
-    6. [Auto-atención enmascarada](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/07MaskedAttention.html)
-    7. [Optimizador Noam](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/08Noam.html)
+3. <b>Otras capas dentro de los Transformadores</b>
+    1. [Embeddings y codificación posicional](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/04Encoding.html)
+    2. [Suma y normalización](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/05Normalization.html)
+4. <b>Multi-cabeza y atención enmascarada</b>
+    1. [Cabezas de atención](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/06AttentionHead.html)
+    2. [Auto-atención enmascarada](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/07MaskedAttention.html)
+9. <b>Optimización</b>
+    1. [Optimizador Noam](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/08Noam.html)
