@@ -8154,7 +8154,7 @@ $$h = head_1 W_1 + head_2 W_2 + \cdots + head_N W_N + (b)$$<p>Es decir, la auto-
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Otras-propuestas-de-multi-cabeza">Otras propuestas de multi-cabeza<a class="anchor-link" href="#Otras-propuestas-de-multi-cabeza">¶</a></h3><p>Otras propuestas se han realizado para realizar la operación de las multi-cabezas. En la versión propuesta por Vaswabi et ak. (2017) las cabezas de atención trabajan de manera independiente. En contrates con esto, Cordonnier et al. (2020) proponen un conjunto de cabezas de atención colaborativas. Estas cabezas utilizan una sola proyección hacia los espacios de query y key, y $N$ proyecciones hacia el espacio de values. Es decir, se tiene sólo una matriz de query $W_q$ y una sola de key $W_k$. De tal forma que las matrices $Q$ y $K$ son únicas. Pero las matrices de value son $N$, $V_i$.</p>
+<h3 id="Otras-propuestas-de-multi-cabeza">Otras propuestas de multi-cabeza<a class="anchor-link" href="#Otras-propuestas-de-multi-cabeza">¶</a></h3><p>Otras propuestas se han realizado para realizar la operación de las multi-cabezas. En la versión propuesta por Vaswani et al. (2017) las cabezas de atención trabajan de manera independiente. En contrates con esto, Cordonnier et al. (2020) proponen un conjunto de cabezas de atención colaborativas. Estas cabezas utilizan una sola proyección hacia los espacios de query y key, y $N$ proyecciones hacia el espacio de values. Es decir, se tiene sólo una matriz de query $W_q$ y una sola de key $W_k$. De tal forma que las matrices $Q$ y $K$ son únicas. Pero las matrices de value son $N$, $V_i$.</p>
 <p>Para realizar diferentes matrices de atención en las diferentes cabezas, se crea una matriz diagonal $M \in \mathbb{R}^{d\times d}$ que realiza diferentes productos puntos. De tal forma que la atención colaorativa define las siguientes cabezas:</p>
 $$head_i = Att(Q M, K, V_i) = Softmax\Big( \frac{Q M K^T}{\sqrt{d}} \Big) V_i$$<p>En este sentido, el producto punto está determinado como:</p>
 $$(Q S K^T)_{i,j} = \sum_l m_l \phi_q(x_i)_l \phi_k(x_j)_l$$<p>Es decir, el produco entre cada vector de proyección está ponderado por los valores $m_1,...,m_d$ que dependen de la cabeza actual. De esta forma, en lugar de aprender $N$ matrices de query y $N$ de keys, se aprende sólo un vector de los valores de la diagonal en $M_i$.</p>
@@ -8172,20 +8172,6 @@ $$(Q S K^T)_{i,j} = \sum_l m_l \phi_q(x_i)_l \phi_k(x_j)_l$$<p>Es decir, el prod
 <p>Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... &amp; Polosukhin, I. (2017). <it>Attention is all you need. Advances in neural information processing systems</it>, 30.</p>
 <hr/>
 <p><a href="https://victormijangosdelacruz.github.io/MecanismosAtencion/">Principal</a></p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=223f8786-7f16-47e3-bc11-25ca5d9d481a">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
 </div>
 </div>
 </div>
