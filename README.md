@@ -24,7 +24,7 @@ En segundo lugar, se abarcará los principios técnicos para la implementación 
 4. <b>Multi-cabeza y atención enmascarada</b>
     1. [Cabezas de atención](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/06AttentionHead.html)
     2. [Auto-atención enmascarada](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/07MaskedAttention.html)
-    3. [Atención dispersa](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/07bSparseAttention.html)
+    3. [Atención dispersa](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/07bSparseAtt.html)
 9. <b>Construcción del transformador</b>
     1. [Optimizador Noam](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/08Noam.html)
     2. [Transformador](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/09FullTranformer.html)
