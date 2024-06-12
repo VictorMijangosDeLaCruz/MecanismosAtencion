@@ -13,8 +13,7 @@ En segundo lugar, se abarcará los principios técnicos para la implementación 
 ## Temario
 
 1. <b>Introducción</b>
-    1. [Motivación de la atención]
-    2. [Atención en redes recurrentes](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/01RNNAtenttion.html)
+    1. [Atención en redes recurrentes](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/01RNNAtenttion.html)
 2. <b>Auto-atención en Transformadores</b>
     1. [Auto-atención](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/02SelfAttention.html)
     2. [Auto-atención y estructuras gráficas](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/03GraphAttention.html)
@@ -28,3 +27,34 @@ En segundo lugar, se abarcará los principios técnicos para la implementación 
 9. <b>Construcción del transformador</b>
     1. [Optimizador Noam](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/08Noam.html)
     2. [Transformador](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/09FullTranformer.html)
+
+### Notebooks
+
+Los notebooks utilizados pueden encontrarse [aquí](https://victormijangosdelacruz.github.io/MecanismosAtencion/Notebooks/).
+
+## Referencias
+
+- Bahdanau, D., Cho, K., & Bengio, Y. (2014). Neural machine translation by jointly learning to align and translate. arXiv preprint arXiv:1409.0473.
+- Bjorck, N., Gomes, C. P., Selman, B., & Weinberger, K. Q. (2018). Understanding batch normalization. Advances in neural information processing systems, 31.
+- Bronstein, M. M., Bruna, J., Cohen, T., & Veličković, P. (2021). Geometric deep learning: Grids, groups, graphs, geodesics, and gauges. arXiv preprint arXiv:2104.13478.
+- Chowdhery, A., Narang, S., Devlin, J., Bosma, M., Mishra, G., Roberts, A., ... & Fiedel, N. (2023). Palm: Scaling language modeling with pathways. Journal of Machine Learning Research, 24(240), 1-113.
+- Cordonnier, J. B., Loukas, A., & Jaggi, M. (2020). Multi-head attention: Collaborate instead of concatenate. arXiv preprint arXiv:2006.16362.
+- Clark, K., Khandelwal, U., Levy, O., & Manning, C. D. (2019). What does bert look at? an analysis of bert's attention. arXiv preprint arXiv:1906.04341.
+- Child, R., Gray, S., Radford, A., & Sutskever, I. (2019). Generating long sequences with sparse transformers. arXiv preprint arXiv:1904.10509.
+- Dar, G., Geva, M., Gupta, A., & Berant, J. (2022). Analyzing transformers in embedding space. arXiv preprint arXiv:2209.02535.
+- Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805.
+- Luong, M. T., Pham, H., & Manning, C. D. (2015). Effective approaches to attention-based neural machine translation. arXiv preprint arXiv:1508.04025.
+- Ioffe, S., & Szegedy, C. (2015, June). Batch normalization: Accelerating deep network training by reducing internal covariate shift. In International conference on machine learning (pp. 448-456).
+- Kingma, D. P., & Ba, J. (2014). Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980.
+- Knyazev, B., Taylor, G. W., & Amer, M. (2019). Understanding attention and generalization in graph neural networks. Advances in neural information processing systems, 32.
+- Su, J., Ahmed, M., Lu, Y., Pan, S., Bo, W., & Liu, Y. (2024). Roformer: Enhanced transformer with rotary position embedding. Neurocomputing, 568, 127063.
+- Shaw, P., Uszkoreit, J., & Vaswani, A. (2018). Self-attention with relative position representations. arXiv preprint arXiv:1803.02155.
+- Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. Advances in neural information processing systems, 30.
+- Veličković, P., Cucurull, G., Casanova, A., Romero, A., Lio, P., & Bengio, Y. (2018). Graph attention networks. arXiv preprint arXiv:1710.10903.
+
+### Otros recursos
+
+- [The Annotated Transformer (tutorial)](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
+- [Transformers are graph neural networks (blog)](https://thegradient.pub/transformers-are-graph-neural-networks/)
+- [The math behind transformers (video)](https://www.youtube.com/watch?v=UPtG_38Oq8o&t=1s)
+- [Las matemáticas de los transformers (video)](https://www.youtube.com/watch?v=w5pfPvGGSIY&t=8s)
