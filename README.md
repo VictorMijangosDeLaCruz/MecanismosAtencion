@@ -33,7 +33,7 @@ En segundo lugar, se abarcará los principios técnicos para la implementación 
 
 Los notebooks utilizados pueden encontrarse [aquí](https://victormijangosdelacruz.github.io/MecanismosAtencion/Notebooks/).
 
-La presentación puede encontrarse [aquí](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/2024School_Transformers-1.pdf)
+La presentación puede encontrarse [aquí](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/2024School_Transformers-1.pdf).
 
 ## Referencias
 
@@ -61,3 +61,7 @@ La presentación puede encontrarse [aquí](https://victormijangosdelacruz.github
 - [Transformers are graph neural networks (blog)](https://thegradient.pub/transformers-are-graph-neural-networks/)
 - [The math behind transformers (video)](https://www.youtube.com/watch?v=UPtG_38Oq8o&t=1s)
 - [Las matemáticas de los transformers (video)](https://www.youtube.com/watch?v=w5pfPvGGSIY&t=8s)
+
+------------------------------------------------------------------------------------------------------
+
+<p style="text-align: right;">Material desarrollado con apoyo del proyecto PAPIIT TA100924</p>
