@@ -1,7 +1,7 @@
 # Introducción a los Mecanismos de Atención en Transformadores
 
-## Objetivo
-Los participantes en el taller conocerán los fundamentos teóricos esenciales para conocer los mecanismos de atención en redes neuronales, y serán capaces de implementar las unidades básicas de este tipos de mecanismos con el uso de Pytorch.
+## Sobre el proyecto
+El proyecto tiene como objetivo estudiar los sesgos inductivos, particularmente los sesgos inductivos relacionales en las capas de atención. El presente repositorio contiene material elaborado bajo el proyecto TA100924 que introduce las nociones básicas de las capas de atención, sus distintos tipos, su implementación con PyTorch, y la implementación de una arquitectura de transformers.
 
 ## Resumen
 Las capas de atención son actualmente mecanismo centrales en los modelos del lenguaje. Los Transformers, que representan el estado del arte en este campo, se basan en el uso de capas de atención en combinación con otras estrategias. La atención también se ha utilizado en modelos basados en redes recurrentes de tipo sequence-to-sequence, brindando mejoras significativas en tareas de procesamiento de lenguaje natural como traducción automática y generación de texto. Entender cómo funcionan estos mecanismos es esencial para comprender los modelos del lenguaje actuales.
