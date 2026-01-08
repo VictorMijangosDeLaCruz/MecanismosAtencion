@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import numpy as np
 from collections import defaultdict
-<<<<<<< HEAD
 from sklearn.model_selection import train_test_split
 
 class MyDataset(torch.utils.data.Dataset):
