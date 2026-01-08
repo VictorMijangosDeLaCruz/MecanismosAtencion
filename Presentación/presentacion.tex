@@ -1,0 +1,117 @@
+	\documentclass[aspectratio=169,11pt]{beamer}
+% Aspect ratio:
+% 610 => 16:10 
+% 169 => 16:9 (Mas común actualmente)
+% 149 => 14:9
+%  54 => 5:4
+%  43 => 4:3 (Default)
+%  32 => 3:2
+
+% Tamaño de la fuente
+% 8pt, 9pt, 10pt, 11pt (default), 12pt, 14pt, 17pt, 20pt
+
+% Opciones de lenguaje usando polyglossia (defino dos para este documento)
+\usepackage{polyglossia}
+\setmainlanguage{spanish}
+\setotherlanguage[variant=american]{english}
+
+% Los símbolos el los conjuntos numéricos
+\usepackage{amssymb} 
+\usepackage{caption}
+\usepackage{subcaption}
+ % Incluir imágenes
+\usepackage{graphicx}
+\usepackage{tikz}
+% Poder usar subfiguras
+\usepackage{subcaption} 
+% Para presentaciones usualmente no necesitamos la primer parte del caption
+\captionsetup[figure]{labelformat=empty}
+\captionsetup[table]{labelformat=empty}
+
+% Tablas con estilo profesional
+\usepackage{booktabs}
+
+% Para usar varias columnas
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+% Para poner algortmos en pseudo código
+\usepackage{algpseudocode}
+% Ambiente flotante para los algoritmos
+\usepackage{algorithm} 
+% Hacer los comentarios en el pseudocódigo similares a los de C++
+%\algrenewcommand{\algorithmiccomment}[1]{\hskip3em$//$ #1}
+% El paquete algorithm, no tiene traducción automática
+%\floatname{algorithm}{Algoritmo}
+\renewcommand{\algorithmicrequire}{\textbf{Entradas:}}
+\renewcommand{\algorithmicensure}{\textbf{Salidas:}}
+\renewcommand{\listalgorithmname}{Índice de algoritmos}
+
+
+\usepackage[newfloat=true]{minted} 
+
+\DeclareCaptionFormat{mitedFormat}{%
+    \textbf{#1#2}#3}
+\DeclareCaptionStyle{minetdStyle}{skip=0cm,width=.85\textwidth,justification=centering,  font=footnotesize,singlelinecheck=off,format=mitedFormat,labelsep=space}
+\newenvironment{mintedCode}{\captionsetup{type=listing,style=minetdStyle}}{}
+\captionsetup[listing]{labelformat=empty}
+
+\setminted[cpp]{frame=lines,framesep=0.25cm,baselinestretch=0.5,fontsize=\scriptsize,breaklines}
+
+\setmintedinline[cpp]{fontsize=auto}
+
+\usepackage{dirtytalk}
+
+\newcommand{\unam}{
+  \small{Departamento de Matemáticas \\ Facultad de Ciencias, UNAM}
+}
+
+\newcommand{\email}[1]{
+    \texttt{
+      \href{mailto:#1}{#1}
+    }
+}
+
+\title[Taller de IA, FC]{Introducción a los mecanismos de atención en Tranformers}
+
+\author[Victor Mijangos]{Víctor Germán Mijangos de la Cruz}
+\institute[Facultad de Ciencias]{
+    \vspace{0.5pt}
+    \unam
+}
+\titlegraphic{\includegraphics[width=1.7cm]{img/logoCiencias.png}}
+
+\vspace{0.5pt}
+
+\date[Enero de 2025]
+{~}
+
+\usetheme{AnnArbor}
+\useinnertheme{circles}
+\usecolortheme{orchid}
+\setbeamercolor{block title alerted}{fg=white,bg=red}
+\setbeamercolor{alerted text}{fg=red}
+
+\definecolor{azul_unam}{RGB}{0, 0, 0}
+\definecolor{dorado_unam}{RGB}{187, 136, 0}
+\definecolor{amarillo_quemado}{RGB}{212, 180, 21}
+
+\setbeamercolor{frametitle}{fg=black,bg=amarillo_quemado}
+\setbeamercolor{title}{fg=azul_unam,bg=dorado_unam}
+\setbeamercolor{title in head/foot}{fg=black,bg=amarillo_quemado}
+\setbeamercolor{subsection in head/foot}{fg=azul_unam,bg=dorado_unam}
+\setbeamercolor{section in head/foot}{fg=dorado_unam}
+\setbeamercolor{author in head/foot}{fg=dorado_unam}
+\setbeamercolor{institute in head/foot}{fg=dorado_unam}
+\setbeamercolor{page number in head/foot}{fg=azul_unam,bg=dorado_unam}
+\setbeamercolor{date in head/foot}{fg=azul_unam,bg=dorado_unam}
+
+\hypersetup{colorlinks,linkcolor=,urlcolor=azul_unam}
+
+\setbeamertemplate{caption}{\insertcaption}
+
+\begin{document}
+
+\input{contenido}
+
+\end{document}

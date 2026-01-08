@@ -1,0 +1,10 @@
+\xpginauxfiletrue 
+\selectlanguage *{spanish}
+\beamer@sectionintoc {1}{Introducción}{2}{0}{1}
+\beamer@sectionintoc {2}{Auto-atención}{10}{0}{2}
+\beamer@sectionintoc {3}{Encoder-Decoder}{27}{0}{3}
+\beamer@subsectionintoc {3}{1}{Positional encoding}{29}{0}{3}
+\beamer@subsectionintoc {3}{2}{Normalización}{35}{0}{3}
+\beamer@subsectionintoc {3}{3}{Enmascaramiento}{43}{0}{3}
+\beamer@sectionintoc {4}{Transformador}{50}{0}{4}
+\beamer@subsectionintoc {4}{1}{Optimización}{55}{0}{4}
