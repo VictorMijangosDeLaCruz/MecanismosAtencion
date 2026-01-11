@@ -30,6 +30,7 @@ En segundo lugar, se abarcará los principios técnicos para la implementación 
     3. [Transformador](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/09FullTranformer.html)
 10. <b> Arquitecturas específicas</b>
     1. [Arquitectura encoder-only (BERT)](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/BERT.html)
+    2. [Ajuste fino de BETO (BERT es español)](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/BETO_Example.html)
 
 ### Notebooks
 
