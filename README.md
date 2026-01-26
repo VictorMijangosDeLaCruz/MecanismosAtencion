@@ -31,6 +31,7 @@ En segundo lugar, se abarcará los principios técnicos para la implementación 
 10. <b> Arquitecturas específicas</b>
     1. [Arquitectura encoder-only (BERT)](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/BERT.html)
     2. [Ajuste fino de BETO (BERT es español)](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/BETO_Example.html)
+    3. [Voz a texto con Wave2Vec](https://victormijangosdelacruz.github.io/MecanismosAtencion/html/Wave2Vec.html)
 
 ### Notebooks
 
